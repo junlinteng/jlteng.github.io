@@ -19,11 +19,17 @@
   
 </table>
 <form>
-  <input type="text" name="who" size =20>
-  <input type="text" name="email" size =20> <br>
-  <input type="checkbox" name="contact[]" value ="sms" size =20>BY SMS <br>
-  <input type="checkbox" name="contact[]" value ="phone" size =20>BY PHONE <br>
-  <input type="checkbox" name="contact[]" value ="NOCONTACT" size =20> DO NOT CONTACT <br>
+  Name: <input type="text" name="who" size =20> <br>
+  Relationship Status: <br>
+		<input name="r_status" type="radio" value="single" checked /> Single
+		<input name="r_status" type="radio" value="attached" /> Attached
+		<input name="r_status" type="radio" value="complicated" /> Complicated <br>
+  Animals you like:        <br>                                                                                            
+  <input type="checkbox" name="animals[]" value ="dog" size =20>Dog 
+  <input type="checkbox" name="canimals[]" value ="cat" size =20>Cat 
+  <input type="checkbox" name="canimals[]" value ="hamsters" size =20>Hamster
+  <input type="checkbox" name="canimals[]" value ="me" size =20>Me? ;))      
+  <input type = "submit" name = "submit" value = "Submit">                                                    
 </form>
 
 </body>
